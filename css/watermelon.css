@@ -53,14 +53,137 @@ html, body {
     vertical-align: middle;
 }
 
+
+/* HEADER TITLE */
+
+/* Extra small devices (phones, less than 768px) */
 .HeaderTitle {
-    font-size: 1000%;
+    font-size: 284%;
     text-transform: uppercase;
 }
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .HeaderTitle {
+      font-size: 700%;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .HeaderTitle {
+      font-size: 900%;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .HeaderTitle {
+      font-size: 1000%;
+  }
+}
+
+/* HEADER TAG */
+
+/* Extra small devices (phones, less than 768px) */
 .HeaderTag {
-  margin-top: -2%;
-  font-size: 300%;
+  margin-top: -5%;
+font-size: 160%;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .HeaderTag {
+    margin-top: -3%;
+    font-size: 240%;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .HeaderTag {
+    margin-top: -2%;
+    font-size: 300%;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .HeaderTag {
+    margin-top: -2%;
+    font-size: 300%;
+  }
+}
+
+/* HEADER Button */
+
+/* Extra small devices (phones, less than 768px) */
+.MoreText {
+  color: white;
+  font-size: 150%;
+  margin-top: 5%;
+  margin-bottom: 0px;
+}
+
+.MoreBox {
+  width: 30%;
+  height: 6.5%;
+  box-shadow: 0 0 0 6px #fff;
+  display: table;
+  text-align: center;
+  margin: 3% auto;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .MoreText {
+    font-size: 300%;
+    margin-top: 3%;
+    margin-bottom: 10px;
+  }
+
+  .MoreBox {
+    width: 30%;
+    height: 7%;
+    box-shadow: 0 0 0 10px #fff;
+    margin: 3% auto;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .MoreText {
+    font-size: 300%;
+    margin-top: 3%;
+    margin-bottom: 10px;
+  }
+
+  .MoreBox {
+    width: 30%;
+    height: 7%;
+    box-shadow: 0 0 0 10px #fff;
+    margin: 3% auto;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .MoreText {
+    font-size: 300%;
+    margin-top: 3%;
+    margin-bottom: 10px;
+  }
+
+  .MoreBox {
+    width: 30%;
+    height: 7%;
+    box-shadow: 0 0 0 10px #fff;
+    margin: 3% auto;
+  }
+}
+
+.WorkImage {
+  width: 100%;
 }
 
 .header {
@@ -94,12 +217,6 @@ html, body {
   display: inline-block;
 }
 
-.MoreText {
-  color: white;
-  font-size: 300%;
-  margin-top: 3%;
-}
-
 .RedText {
   color: rgba(166, 66, 66, 1);
 }
@@ -119,30 +236,7 @@ html, body {
   font-size: 14px;
 }
 
-.MoreBox {
-  width: 30%;
-  height: 7%;
-  box-shadow: 0 0 0 10px #fff;
-  display: table;
-  text-align: center;
-  margin: 3% auto;
-}
 
-.HeaderLogo {
-  display: table-cell;
-  vertical-align: middle;
-  padding-right: 15%;
-}
-
-.LogoIMG {
-	margin: auto;
-  display: table-cell;
-  position: relative;
-	border-radius: 50%;
-	border: 5px solid #FFFFFF;
-	min-width: 125px;
-	min-height: 125px;
-}
 
 .CenterHeader {
   display: table-cell;
@@ -186,6 +280,8 @@ a {
     margin: 0 auto;
 }
 
+
+/* Removes Link Style */
 a {
     text-decoration: none !important;
 }
