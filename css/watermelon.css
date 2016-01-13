@@ -12,6 +12,15 @@
 
 /* Clean Code Up Soon!! */
 
+/*
+*  Screen Size
+*  -----------
+*  Mobile - Extra small devices (phones, less than 768px)
+*  Tablet - Small devices (tablets, 768px and up)
+*  Laptop - Medium devices (desktops, 992px and up)
+*  Desktop - Large devices (large desktops, 1200px and up)
+*/
+
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 html, body {
@@ -127,7 +136,7 @@ font-size: 160%;
 
 .MoreBox {
   width: 30%;
-  height: 6.5%;
+  height: 29px;
   box-shadow: 0 0 0 6px #fff;
   display: table;
   text-align: center;
@@ -144,7 +153,6 @@ font-size: 160%;
 
   .MoreBox {
     width: 30%;
-    height: 7%;
     box-shadow: 0 0 0 10px #fff;
     margin: 3% auto;
   }
@@ -182,8 +190,36 @@ font-size: 160%;
   }
 }
 
+/* LOGO FIX */
+
+.NavLogo {
+  padding-top: 6px;
+  max-height: 60px;
+  max-width: 35px;
+  margin-left: 15px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .NavLogo {
+    padding-top: 6%;
+    max-width: 40px;
+  }
+}
+
+
 .WorkImage {
   width: 100%;
+}
+
+.MobileNavRight {
+  float: right;
+}
+
+@media (min-width: 768px) {
+  .MobileNavRight {
+    float: left;
+  }
 }
 
 .header {
