@@ -136,11 +136,7 @@ font-size: 160%;
 
 .MoreBox {
   width: 30%;
-<<<<<<< HEAD
-  height: 6.5%;
-=======
   height: 29px;
->>>>>>> refs/remotes/origin/master
   box-shadow: 0 0 0 6px #fff;
   display: table;
   text-align: center;
@@ -157,10 +153,6 @@ font-size: 160%;
 
   .MoreBox {
     width: 30%;
-<<<<<<< HEAD
-    height: 7%;
-=======
->>>>>>> refs/remotes/origin/master
     box-shadow: 0 0 0 10px #fff;
     margin: 3% auto;
   }
@@ -198,10 +190,6 @@ font-size: 160%;
   }
 }
 
-<<<<<<< HEAD
-.WorkImage {
-  width: 100%;
-=======
 /* APP STORE BUTTON */
 
 /* Extra small devices (phones, less than 768px) */
@@ -350,7 +338,6 @@ font-size: 160%;
   .MobileNavRight {
     float: left;
   }
->>>>>>> refs/remotes/origin/master
 }
 
 .header {
@@ -394,18 +381,6 @@ font-size: 160%;
   display: inline-block;
 }
 
-<<<<<<< HEAD
-.FooterText {
-  font-family: inherit;
-  font-weight: 500;
-  color: inherit;
-  font-size: 14px;
-}
-
-
-
-=======
->>>>>>> refs/remotes/origin/master
 .CenterHeader {
   display: table-cell;
   text-align: center;
