@@ -5043,6 +5043,7 @@ a.badge:focus {
   }
 }
 .thumbnail {
+<<<<<<< HEAD
   display: block;
   margin-bottom: 20px;
   line-height: 1.42857143;
@@ -5050,6 +5051,18 @@ a.badge:focus {
   -webkit-transition: border .2s ease-in-out;
        -o-transition: border .2s ease-in-out;
           transition: border .2s ease-in-out;
+=======
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+>>>>>>> refs/remotes/origin/master
 }
 .thumbnail > img,
 .thumbnail a > img {

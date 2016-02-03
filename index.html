@@ -21,7 +21,6 @@
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png?">
 
 		<!-- StyleSheets -->
 		<!-- NOTE: Have a look at adding external sources for css files. -->
@@ -32,6 +31,7 @@
 	</head>
 	<body>
 		   <!-- One Page Header -->
+<<<<<<< HEAD
 				<header id="home" class="header">
 					<nav class="navbar-default clear-nav navbar-static-top NavFix">
 						<div class="container">
@@ -64,19 +64,118 @@
 						</div>
 					</div>
 				</header>
+=======
+			 <header id="home" class="header">
+				 <nav class="navbar-default clear-nav navbar-static-top NavFix">
+					 <div class="container">
+						 <div class="navbar-header">
+							 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								 <span class="sr-only">Toggle navigation</span>
+            		 <span class="icon-bar"></span>
+            		 <span class="icon-bar"></span>
+            		 <span class="icon-bar"></span>
+							 </button>
+							 <img src="images/Logo.png" width="100%" height="100%" class="NavLogo">
+						 </div>
+						 <div id="navbar" class="navbar-collapse collapse">
+							 <ul class="nav navbar-nav navbar-right MobileNavRight">
+								 <li><a class="" href="#about">ABOUT US</a></li>
+								 <li><a class="" href="#glide">OUR GAMES</a></li>
+								 <li><a class="" data-toggle="modal" href="#email">CONTACT US</a></li>
+							 </ul>
+						 </div>
+					 </div>
+				 </nav>
 
-				<!-- About Us -->
-				<section id="about">
-					<div class="container">
-            <div class="row">
-							<div class="col-lg-12 text-center TextFix">
-              	<h2>About Us</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis tellus nec diam convallis, non egestas mi posuere. Phasellus ante dui, dictum in faucibus et, fringilla id odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum dictum auctor. Donec non pulvinar ex. Ut tincidunt augue sed justo porttitor, eget faucibus nibh iaculis. Proin et consequat lacus. Integer interdum cursus arcu, vitae pulvinar dui bibendum sit amet.</p>
-              </div>
-						</div>
+				 <!-- Contact Us Email Form -->
+				 <div class="modal fade" id="email" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="color: black; font-weight: 500;">
+					 <div class="modal-dialog" role="document">
+						 <div class="modal-content">
+							 <div class="modal-header">
+								 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								 <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+							 </div>
+							 <div class="modal-body">
+								 <form>
+									 <div class="form-group">
+										 <label for="recipient-name" class="control-label" style="font-weight: normal !important;">Name: *</label>
+										 <input type="text" class="form-control" id="recipient-name" style="font-size: 16px; font-family: monospace;">
+									 </div>
+									 <div class="form-group">
+										 <label for="recipient-name" class="control-label" style="font-weight: normal !important;">Email: *</label>
+										 <input type="text" class="form-control" id="recipient-email" style="font-size: 16px; font-family: monospace;">
+									 </div>
+									 <div class="form-group">
+										 <label for="message-text" class="control-label" style="font-weight: normal !important;">Message: *</label>
+										 <textarea class="form-control" id="message-text" style="font-size: 16px; font-family: monospace; max-width: 100%;"></textarea>
+									 </div>
+								 </form>
+							 </div>
+							 <div class="modal-footer">
+								 <p style="float: left;">* Required</p>
+								 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								 <button type="button" class="btn btn-primary">Send message</button>
+							 </div>
+						 </div>
+					 </div>
+				 </div>
+
+				 <div class="container container-freedom">
+					 <div class="text-vertical-center">
+						 <h1 class="HeaderTitle">Watermelon Cake Games</h1>
+						 <h1 class="HeaderTag">Android and IOS Game Developer</h1>
+						 <a href="#games" class="MoreBox">
+							 <h3 class="MoreText">Our Games</h3>
+						 </a>
+					 </div>
+				 </div>
+			 </header>
+>>>>>>> refs/remotes/origin/master
+
+			 <!-- About Us -->
+			 <section id="about" class="bg-cream">
+				 <div class="container">
+					 <div class="row">
+						 <div class="col-lg-12 text-center content-font">
+							 <h2 class="about-title">About Us</h2>
+               <p class="about-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis tellus nec diam convallis, non egestas mi posuere. Phasellus ante dui, dictum in faucibus et, fringilla id odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum dictum auctor. Donec non pulvinar ex. Ut tincidunt augue sed justo porttitor, eget faucibus nibh iaculis. Proin et consequat lacus. Integer interdum cursus arcu, vitae pulvinar dui bibendum sit amet.</p>
+						 </div>
+					 </div>
+				 </div>
+			 </section>
+
+			 <!-- App Gallery -->
+			 <section id="glide" class="bg-white content-font" style="padding: 159px 0;">
+				 <div class="container">
+					 <div class = "col-xs-6">
+						 <img class="img-game" width="100%" height="100%" src="images/GlideIPhone.png" style="max-width: 330px;">
+					 </div>
+					 <div class = "col-xs-6" style="padding-top: 91px;">
+						 <hr class="hr-game">
+						 <p class="content-title">Glide</p>
+						 <p class="content-info">
+						Glide our little dude down through an infinite stream of objects in this addictive new endless runner. Tap to move left and right.<br>
+						<br>
+						- <b>Fast games</b> with simple controls. Have a spare couple of minutes? Pick up and have a quick play!<br>
+						- Awesome retro <b>8-bit graphics</b> and sound effects.<br>
+						- <b>Three different game speeds</b> - slow, normal and fast mean you can play a speed that suits you best!<br>
+						- <b>Power ups!</b> - duck under pipes or jump over them. If all else fails, make the gap bigger! Simply tap the icon or flick your phone to activate!<br>
+						<br>
+						Any resemblance to other fictional characters and objects is purely coincidental.<br>
+						<br>
+						<b>Enjoy the game!</b><br>
+						</p>
+						<a href="https://play.google.com/store/apps/details?id=com.absy.flappyDive" target="_blank">
+							<img class="content-google" width="100%" height="100%" src="images/GooglePlay.png">
+						</a>
+						<a href="https://itunes.apple.com/us/app/apple-store/id909213463?mt=8" target="_blank">
+							<img class="content-apple" width="100%" height="100%" src="images/AppleAppStore.png">
+						</a>
 					</div>
-				</section>
+				</div>
+			</section>
 
+<<<<<<< HEAD
 				<!-- App Gallery -->
 				<section id="games" class="games" style="padding-top: 5%;">
 					<div class="container">
@@ -134,11 +233,60 @@
 						</div>
         	</div>
 				</section>
+=======
+			<!-- App Gallery -->
+			<section id="jumperang" class="bg-cream content-font" style="padding: 159px 0;">
+				<div class="container">
+					<div class = "col-xs-6">
+						<img class="img-game" width="100%" height="100%" src="images/JumperangIPhone.png" style="470px;">
+					</div>
+					<div class = "col-xs-6" style="padding-top: 25px;">
+						<hr class="hr-game">
+						<p class="content-title">Jumperang</p>
+						<p class="content-info">
+					 <b>Protect yourself</b> from incoming waves of <b>psycho coin hoarding birds</b> and <b>kangaroos</b>.
+					 <br>
+					 <b>Enjoy the game!</b><br>
+					 </p>
+					 <a href="https://play.google.com/store/apps/details?id=com.absy.boomerang.android" target="_blank">
+						 <img class="content-google" width="100%" height="100%" src="images/GooglePlay.png">
+					 </a>
+					 <a href="#" target="_blank">
+						 <img class="content-apple" width="100%" height="100%" src="images/AppleAppStore.png">
+					 </a>
+				 </div>
+			 </div>
+		 </section>
+>>>>>>> refs/remotes/origin/master
 
-				<!-- Footer -->
-				<div class="Footer">
-					<span class="Creator FooterText">Designed and Coded by <span class="RedText">Alex King</span></span>
+		 <!-- App Gallery -->
+		 <section id="skiPanic" class="bg-white content-font" style="padding: 159px 0;">
+			 <div class="container">
+				 <div class = "col-xs-6">
+					 <img class="img-game" width="100%" height="100%" src="images/SkiPanicIPhone.png" style="max-width: 330px;">
+				 </div>
+				 <div class = "col-xs-6" style="padding-top: 91px;">
+					 <hr class="hr-game">
+					 <p class="content-title">Ski Panic</p>
+					 <p class="content-info">
+					From the creators of glide, comes an timeless classic skiing game.
+					Suit up; you're going for the ride of your life!<br>
+					<br>
+					Ski Panic is a <b>fast paced, action packed, addictive</b> skiing game which will really <b>test your reflexes!</b>
+					Avoid trees and rocks as you fly down the slopes at break neck speed. Simply tap left and right to move.<br>
+					<br>
+					The <b>retro 2D look</b>, along with the nostalgic <b>8 bit sound track</b> and simple controls will give you the opportunity to relive your youth, back when only one thing was important - beating your high score!<br>
+					<br>
+					<b>Enjoy the game!</b><br>
+					</p>
+					<a href="https://play.google.com/store/apps/details?id=com.absy.retroSki" target="_blank">
+						<img class="content-google" width="100%" height="100%" src="images/GooglePlay.png">
+					</a>
+					<a href="https://itunes.apple.com/us/app/ski-panic/id873583896?mt=8" target="_blank">
+						<img class="content-apple" width="100%" height="100%" src="images/AppleAppStore.png">
+					</a>
 				</div>
+<<<<<<< HEAD
 
 		<!-- Bootstrap core JavaScript
     ================================================== -->
@@ -147,4 +295,29 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 			</body>
+=======
+			</div>
+		</section>
+
+			 <!-- Footer -->
+			 <div class="Footer">
+				 <p class="content-font footer-copyright">© 2016 Watermellon Cake Game</p>
+			 </div>
+
+			 <!-- Bootstrap core JavaScript
+			 ================================================== -->
+			 <!-- Placed at the end of the document so the pages load faster -->
+			 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			 <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+			 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+			 <!--<script>
+			 		$(document).ready(function(){
+    				$("#myBtn").click(function(){
+							$("#email").modal();
+    				});
+					});
+			 </script>-->
+		 </body>
+>>>>>>> refs/remotes/origin/master
 </html>
