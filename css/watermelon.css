@@ -26,7 +26,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #191919;
+  background-color: #1c1c1c;
   font-size: 14px;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -190,6 +190,66 @@ font-size: 160%;
   }
 }
 
+/* APP STORE BUTTON */
+
+/* Extra small devices (phones, less than 768px) */
+.StoreText {
+  color: Black;
+  font-size: 150%;
+  margin-top: 5%;
+  margin-bottom: 0px;
+}
+
+.StoreBox {
+  display: table;
+  width: 90%;
+  height: 4%;
+  box-shadow: 0 0 0 7px #000;
+  margin: 7% auto;
+  text-align: center;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .StoreText {
+    font-size: 200%;
+  }
+
+  .StoreBox {
+    width: 30%;
+    box-shadow: 0 0 0 10px #fff;
+    margin: 3% auto;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .StoreText {
+    font-size: 200%;
+  }
+
+  .StoreBox {
+    width: 30%;
+    height: 7%;
+    box-shadow: 0 0 0 10px #fff;
+    margin: 3% auto;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .StoreText {
+    font-size: 200%;
+  }
+
+  .StoreBox {
+    width: 90%;
+    height: 4%;
+    box-shadow: 0 0 0 7px #000;
+    margin: 7% auto;
+  }
+}
+
 /* LOGO FIX */
 
 .NavLogo {
@@ -208,8 +268,66 @@ font-size: 160%;
 }
 
 
-.WorkImage {
-  width: 100%;
+.bg-white{
+  color: black;
+  background-color: white;
+}
+
+.bg-cream{
+  color: black;
+  background-color: #f4f4f4;
+}
+
+.img-game {
+  -webkit-filter: drop-shadow(-3px 5px 1px rgba(0,0,0,0.2));
+}
+
+.hr-game {
+  width: 151px;
+  margin: 0;
+  border-top: 4px solid #212126;
+}
+
+.content-font {
+  font-family: 'Montserrat-Light', sans-serif !important;
+  font-weight: 200;
+}
+
+.content-title {
+  font-size: 45px;
+  margin-top: 18px;
+  margin-bottom: 0px;
+}
+
+.content-info {
+  margin-top: 16px;
+  font-size: 13px;
+  margin-bottom: 23px;
+  font-style: italic;
+}
+
+.about-title {
+  margin-top: 40px;
+}
+
+.about-info {
+  font-size: 17px;
+  padding-bottom: 25px;
+}
+
+.content-google {
+  max-width: 250px;
+  float: left;
+}
+
+.content-apple {
+  max-width: 250px;
+  float: right;
+}
+
+.footer-copyright {
+  font-size: 11px;
+  text-align: center;
 }
 
 .MobileNavRight {
@@ -247,9 +365,7 @@ font-size: 160%;
 }
 
 .Footer {
-  height: 6%;
   width: 100%;
-  background-color: rgba(33, 33, 38, 1);
   display: inline-block;
 }
 
@@ -264,15 +380,6 @@ font-size: 160%;
   font-size: 13px;
   display: inline-block;
 }
-
-.FooterText {
-  font-family: inherit;
-  font-weight: 500;
-  color: inherit;
-  font-size: 14px;
-}
-
-
 
 .CenterHeader {
   display: table-cell;
