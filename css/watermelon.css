@@ -325,6 +325,18 @@ font-size: 160%;
   float: right;
 }
 
+.content-other-text {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.content-other-arrow {
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+
 .footer-copyright {
   font-size: 11px;
   text-align: center;
@@ -373,14 +385,6 @@ font-size: 160%;
   color: rgba(166, 66, 66, 1);
 }
 
-.Creator {
-  position: relative;
-  padding-left: 0.5%;
-  padding-top: 1.9%;
-  font-size: 13px;
-  display: inline-block;
-}
-
 .CenterHeader {
   display: table-cell;
   text-align: center;
@@ -427,4 +431,8 @@ a {
 /* Removes Link Style */
 a {
     text-decoration: none !important;
+    outline: none !important;
+}
+button {
+    outline: none !important;
 }
